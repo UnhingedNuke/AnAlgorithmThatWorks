@@ -6,12 +6,12 @@ As my magical first act, I will mimic the addictive algo style that gets people 
 
 ## Project Structure Tree
 
-├── main.py                  # Entry point / test harness
-├── models.py                # Data structures
-├── ranker.py                # Core ranking logic
-├── features.py              # Feature extraction
-├── candidate_generator.py   # Pull posts from sources
-├── utils.py                 # Helpers (time, scoring boosts)
-├── config.py                # Tunable weights
+├── main.py                  
+├── models.py                
+├── ranker.py                
+├── features.py             
+├── candidate_generator.py   
+├── utils.py                
+├── config.py              
 ├── README.md                
 └── LICENSE                
