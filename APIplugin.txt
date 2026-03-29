@@ -1,0 +1,5 @@
+This piece of crap goes somewhere and I'm gonna find out where it goes.
+
+# FastAPI example
+@app.get("/feed")
+def get_feed(user_id: str):
