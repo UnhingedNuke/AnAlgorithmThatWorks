@@ -35,6 +35,18 @@ class FeedRanker:
         if is_recent(post):                  # Real-time injection
             score += BOOSTS["recent_post"]
 
+        if post.author_id in user.following: # Niches/Interests boost
+            score += BOOSTS["niche"]
+
+        if is_recent(post):                  # Promote wholesome content into algorithm
+            score += BOOSTS["positivity"]
+
+        if post.author_id in user.following: # News Cycle
+            score += BOOSTS["news"]
+
+        if is_recent(post):                  # Boost within local/regional area
+            score += BOOSTS["locale"]
+
         return score
 
     def rank(self, user, posts):
