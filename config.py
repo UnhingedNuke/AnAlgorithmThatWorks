@@ -13,4 +13,8 @@ WEIGHTS = {                # Core ranking weights
 BOOSTS = {                  # Boost values
     "close_friend": 0.3,
     "recent_post": 0.2
+    # niches     <- Weights posts and alligns you with ppl interested in those things too.
+    # positivity <- If makes ppl happy, or weighed as positive, goes up.
+    # newsworthy <- If relevant to news cycle, include in algo
+    # regional   <- If in region, such as fun activities, include.
 }
