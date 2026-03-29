@@ -1,2 +1,2 @@
 # AnAlgorithmThatWorks
-I'm going to see if I can save the algo because I cannot stand the current state of the platform right now.
+I'm going to see if I can save the X algo because I'm tired of everyone complaining about it.
